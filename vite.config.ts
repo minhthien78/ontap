@@ -6,7 +6,15 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     Base: '/ontap/',
+    Server: {
+      Port: 3000,
+      host: '0.0.0.0',
+    },
     plugins: [react(), tailwindcss()],
+    define: {
+      'process.env.API_KEY': JSON.stringify(evn.GEMINI_API_KEY),
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
