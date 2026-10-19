@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.chemistry-content img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  max-height: 320px;
+  vertical-align: middle;
+  background-color: #ffffff;
+  padding: 2px 4px;
+  border-radius: 8px;
+  margin: 6px 2px;
+}
+
+.chemistry-content sub {
+  vertical-align: sub;
+  font-size: 0.75em;
+  line-height: 0;
+}
+
+.chemistry-content sup {
+  vertical-align: super;
+  font-size: 0.75em;
+  line-height: 0;
+}
+
+.chemistry-content table {
+  border-collapse: collapse;
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+.chemistry-content td,
+.chemistry-content th {
+  border: 1px solid #d1d5db;
+  padding: 6px 12px;
+}

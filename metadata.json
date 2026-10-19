@@ -1,0 +1,6 @@
+{
+  "name": "Học Hóa Cùng Thầy Thiện",
+  "description": "Thi trực tuyến – Chấm điểm tự động và xuất Excel cho giáo viên và học sinh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
